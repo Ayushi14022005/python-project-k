@@ -24,4 +24,4 @@ def main():
     print(f"Unique {k}-sized sublists have been saved to 'unique_sublists_{k}.txt'.")
 
 if __name__ == "__main__":
-    mainmain()
+    main()
