@@ -11,7 +11,8 @@ class MainList:
         return result
         
 #contribution by -Jay Gaonkar
-   def save_sublists_to_file(self, k, filename):
+
+    def save_sublists_to_file(self, k, filename):
        sublists = self.generate_k_sublists(k)
        with open(filename, 'w') as file:
            for sublist in sublists:
