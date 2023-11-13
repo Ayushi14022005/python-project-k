@@ -1,5 +1,5 @@
+#contribution by Ayushi Kamrani
 from itertools import combinations
-#contribution by - Ayushi Kamrani 
 class MainList:
     def __init__(self, input_list):
         self.input_list = input_list
